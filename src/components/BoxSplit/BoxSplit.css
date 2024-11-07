@@ -1,7 +1,7 @@
 .box-split {
-	margin: 50px 0;
+	margin: 50px auto;
 	padding: 0;
-	height: 80vh;
+	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
