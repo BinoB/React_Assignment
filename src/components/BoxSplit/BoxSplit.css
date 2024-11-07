@@ -1,0 +1,44 @@
+.box-split {
+	margin: 50px 0;
+	padding: 0;
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(135deg, rgb(19, 37, 24), #587099); 
+	font-family: 'Arial', sans-serif;
+  }
+  
+  .box-container {
+	position: relative;
+	width: 500px; 
+	height: 500px; 
+	border: 3px solid #fff; 
+	background: linear-gradient(45deg, hsl(25, 100%, 62%), #ed127c); 
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+	cursor: pointer;
+	transition: all 0.3s ease-in-out; 
+  }
+  
+  .box-container:hover {
+	transform: scale(1.05); 
+	box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3)
+  }
+  
+  
+  .square {
+	position: absolute;
+	border: 2px solid rgba(255, 255, 255, 0.7); 
+	box-sizing: border-box;
+	background: rgba(255, 255, 255, 0.3); 
+	cursor: pointer;
+	transition: all 0.2s ease; 
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  
+  
+  .square:hover {
+	background: rgba(255, 255, 255, 0.5); 
+	transform: scale(1.1); 
+  }
+  

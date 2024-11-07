@@ -1,0 +1,69 @@
+.game-container {
+	text-align: center;
+	margin: 80px auto;
+  }
+  
+  .control {
+	display: flex;
+	justify-content: center;
+	
+  }
+  
+  .button-game {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #6a5acd, #00bfff); 
+    color: white; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: background 0.3s, transform 0.2s;
+}
+
+.button-game:hover {
+    background: linear-gradient(135deg, #00bfff, #6a5acd); 
+    transform: translateY(-2px); 
+}
+
+.button-game:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+  .grid {
+	display: grid;
+	grid-template-columns: repeat(3, 100px);
+	grid-template-rows: repeat(3, 100px);
+	gap: 10px;
+	justify-content: center;
+	margin-top: 20px;
+  }
+  
+  .box {
+	width: 100px;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid #6c63ff;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: background-color 0.2s ease;
+  }
+  
+  .correct {
+	background-color: green;
+	color: white;
+  }
+  
+  .incorrect {
+	background-color: red;
+	color: white;
+  }
+  
+.score{
+ margin-top: 10px;
+}
